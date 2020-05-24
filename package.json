@@ -9,7 +9,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "postinstall": "npm run build", 
-    "start": "src/main.js"
+    "start": "node run serve"
   },
   "dependencies": {
     "axios": "^0.19.2",
