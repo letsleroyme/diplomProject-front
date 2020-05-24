@@ -66,7 +66,7 @@ export default {
       formData.append('file', this.file)
       formData.append('check', this.check)
       await this.$store.dispatch('uploadFile', formData)
-      await this.$router.push('/tables')
+      await this.$router.push('tusur.herokuapp.com/tables')
     }
   }
 }

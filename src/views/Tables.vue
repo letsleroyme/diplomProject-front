@@ -86,7 +86,7 @@
     }),
     methods: {
       uploadNewFile() {
-        this.$router.push('/')
+        this.$router.push('tusur.herokuapp.com/')
       },
       // Блок action
       async openAction() {
