@@ -8,13 +8,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "postinstall": "npm run build",
-    "start": "npm run src/main.js"
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
     "core-js": "^3.6.4",
+    "express": "^4.17.1",
     "materialize-css": "^1.0.0-rc.2",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
